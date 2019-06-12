@@ -105,14 +105,6 @@ class SecurityConfig {
     }
 }
 
-//@Controller
-//class StaticContentController {
-//    @GetMapping("/")
-//    String getLost() {
-//        return "lost";
-//    }
-//}
-
 @EnableBinding(Source.class)
 @EnableScheduling
 @RestController
